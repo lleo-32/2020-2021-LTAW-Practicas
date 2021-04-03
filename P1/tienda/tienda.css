@@ -1,31 +1,104 @@
 body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-    text-align: center;
-  }
-  
-  #rascador{
+    background-color: white;
     
-    float:left;
-    margin-left: 20px;
-    width: 250px; 
-    height: 300px;
+  }
+  h1{
+    color: black;
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size:50px;
+    margin-top: 60px;
+  }
+p{
+  text-align: center;
+}
+  #imagen1{
+    display:block;
+    margin:auto;
+    width: 300px; 
+    height: 220px;
+  }
+  .parrafo{
+    color: rgb(2, 1, 1);
+    margin-left:20px;
+    font-family: 'Open Sans Condensed', sans-serif;
   }
 
-  #camas{
+  h3{
+    color: black;
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+   
+  }
+  /*
+  #carne{
+    
+    float:left;
+    margin-left: 50px;
+    width: 250px; 
+    height: 150px;
+  }
+  
+  #queso{
+    
+  margin-left: 200px;
+  margin-right: auto;
+  width: 250px; 
+  height: 150px;
+  }
+
+  #sweet{
     
     float:right;
     margin-right: 20px;
+    margin-left: 20px;
     width: 250px; 
-    height: 300px;
+    height: 150px;
   }
-
-  #collares{
+  */
+  div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    display:inline-block;
+    width: 180px;
+    margin-left: 160px;
     
-    margin-left: auto;
-  margin-right: auto;
-    width: 250px; 
-    height: 300px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(211, 198, 162);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(206, 212, 172);
   }

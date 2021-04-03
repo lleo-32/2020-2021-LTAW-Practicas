@@ -4,26 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi tienda</title>
+    <title>PIEROGI</title>
     <link rel="stylesheet" href="tienda.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-    <h1>cat accessoriess</h1>
+  
+   <div id="imagen1">
+      <img src="pierogi.png" id="imagen1">
+   </div>
    
-    <div id=rascador> 
-        <a href="rascador.html"><img src="rascador.png" id="rascador"></a>
-     </div>
-
-     <div id=camas> 
-        <a href="camas.html"><img src="camas.png" id ="camas"></a>
-     </div>
-
-     <div id=collares> 
-        <a href="collares.html"><img src="collares.png" id ="collares"></a>
-     </div>
+ 
+    <p class="parrafo">ALTA COCINA POLACA</p>
     
+    <ul>
+      <li><a href="tienda.html">Home</a></li>
+      <li><a class="active" href="#Productos">Products</a></li>
+      <li><a href="#About Us">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
 
+    <h1 id="About Us">Sobre nosotros</h1>
+
+    <p> Uno de los platos más típicos de la cocina polaca. Consiste en pasta rellena de diferentes tipos.</p>
+    <p> Entre nuestras variedades puede encontrar pierogis tradicionales, veganos y dulces</p>
+
+   <h1 id="Productos">Productos</h1>
+
+    <div class="gallery">
+        <a href="producto1.html"><img src="carne.png" id ="carne" width="600" height="400"></a>  
+        <div class="desc">TRADICIONALES</div>
+    </div>
+
+    <div class="gallery">
+        <a href="producto2.html"><img src="queso.png" id ="queso" width="600" height="300"></a>
+        <div class="desc">VEGANOS</div>
+      </div>    
+      
+      <div class="gallery">
+        <a href="producto3.html"><img src="sweet.jpg" id ="sweet" width="600" height="400"></a>
+        <div class="desc">DULCES</div>
+      </div>  
+    
+      <h1 id="contact">Contacto</h1>
+
+      <p>Direccion: xxxxxx</p>
+      <p>E-mail: xxxxxx</p>
 
 </body>
 </html>

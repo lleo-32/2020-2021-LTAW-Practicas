@@ -11,6 +11,7 @@ body {
   }
 p{
   text-align: center;
+  font-family: 'Dela Gothic One', cursive;
 }
   #imagen1{
     display:block;
@@ -21,7 +22,7 @@ p{
   .parrafo{
     color: rgb(2, 1, 1);
     margin-left:20px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Dela Gothic One', cursive;
   }
 
   h3{
@@ -30,32 +31,7 @@ p{
     font-family: 'DM Serif Text', serif;
    
   }
-  /*
-  #carne{
-    
-    float:left;
-    margin-left: 50px;
-    width: 250px; 
-    height: 150px;
-  }
-  
-  #queso{
-    
-  margin-left: 200px;
-  margin-right: auto;
-  width: 250px; 
-  height: 150px;
-  }
 
-  #sweet{
-    
-    float:right;
-    margin-right: 20px;
-    margin-left: 20px;
-    width: 250px; 
-    height: 150px;
-  }
-  */
   div.gallery {
     margin: 20px;
     border: 1px solid #ccc;

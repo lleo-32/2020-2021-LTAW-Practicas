@@ -10,7 +10,7 @@
             {
                 "nombre": "Pollo",
                 "descripcion": "Pierogis de pollo. 10 unidades por bandeja",
-                "stock": 2,
+                "stock": 3,
                 "precio": 5.95
             },
             {
@@ -22,7 +22,7 @@
             {
                 "nombre": "Cham",
                 "descripcion": "Pierogis de champiñones. 10 unidades por bandeja",
-                "stock": 2,
+                "stock": 1,
                 "precio": 5.95
             },
             {
@@ -68,13 +68,13 @@
             },
             {
                 "user": "lleo",
-                "dirección": "calle de la calle, 10",
+                "dirección": "Calle de la calle, 10",
                 "tarjeta": "1234",
                 "productos": [
                     "",
-                    "Pollo x 1",
                     "",
                     "",
+                    "Cham x 1",
                     "",
                     "",
                     ""

@@ -1,0 +1,30 @@
+#imagen1{
+  display:block;
+  margin:auto;
+  width: 300px; 
+  height: 220px;
+}
+
+#descripcion{
+  font-family: 'Dela Gothic One', cursive;
+  text-align: center;
+}
+
+
+h4{
+  margin-left: 15px;
+  font-family: 'Dela Gothic One', cursive;
+  text-align: center;
+  }
+
+  h2{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    }
+
+    input[type=submit] {
+     
+      margin-left: 565px;
+      
+    }

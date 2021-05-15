@@ -1,0 +1,85 @@
+[
+    {
+        "productos": [
+            {
+                "nombre": "Carne",
+                "descripcion": "Pierogis de ternera. 10 unidades por bandeja",
+                "stock": 5,
+                "precio": 5.95
+            },
+            {
+                "nombre": "Pollo",
+                "descripcion": "Pierogis de pollo. 10 unidades por bandeja",
+                "stock": 2,
+                "precio": 5.95
+            },
+            {
+                "nombre": "Potato",
+                "descripcion": "Pierogis de pata. 10 unidades por bandeja",
+                "stock": 7,
+                "precio": 5.95
+            },
+            {
+                "nombre": "Cham",
+                "descripcion": "Pierogis de champiñones. 10 unidades por bandeja",
+                "stock": 2,
+                "precio": 5.95
+            },
+            {
+                "nombre": "Fresa",
+                "descripcion": "Pierogis de fresa. 10 unidades por bandeja",
+                "stock": 2,
+                "precio": 5.95
+            },
+            {
+                "nombre": "Arandanos",
+                "descripcion": "Pierogis de arandanos. 10 unidades por bandeja",
+                "stock": 2,
+                "precio": 5.95
+            }
+        ]
+    },
+    {
+        "usuarios": [
+            {
+                "user": "lleo",
+                "nombre": "Lucia",
+                "email": "lucia@mail.com"
+            },
+            {
+                "user": "root",
+                "nombre": "soyroot",
+                "email": "root@mail.com"
+            }
+        ]
+    },
+    {
+        "pedidos": [
+            {
+                "user": "lleo",
+                "dirección": "Calle de la calle, 10",
+                "tarjeta": 1234,
+                "productos": [
+                    "Carne x1",
+                    "",
+                    "Pollo x 1",
+                    ""
+                ]
+            },
+            {
+                "user": "lleo",
+                "dirección": "calle de la calle, 10",
+                "tarjeta": "1234",
+                "productos": [
+                    "",
+                    "Pollo x 1",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        ]
+    }
+]

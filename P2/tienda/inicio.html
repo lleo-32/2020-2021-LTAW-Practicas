@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cliente.js" defer></script>
+    <title>PIEROGI</title>
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="icon" href="favicon.ico"> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="contenedor">HTML_EXTRA</div>
+    
+    <div id="imagen1">
+        <img src="imagenes/pierogi.png" id="imagen1">
+     </div>
+
+   <p class="parrafo">ALTA COCINA POLACA</p>
+   <ul>
+    <li><a href="tienda.html">Home</a></li>
+    <li><a class="active" href="#Productos">Products</a></li>
+    <li><a href="#About Us">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <!--<li><a href="">HTML_EXTRA</a></li>-->
+  </ul>
+
+  
+  <form action="/buscar">
+    <h4>introduce producto a buscar</h4>
+      <input type="text" placeholder="Buscar" id="caja">
+      <h4 id="display1"></h4>
+  </form>
+
+
+  <h1 id="About Us">Sobre nosotros</h1>
+
+    <p> Uno de los platos más típicos de la cocina polaca. Consiste en pasta rellena de diferentes tipos.</p>
+    <p> Entre nuestras variedades puede encontrar pierogis tradicionales, veganos y dulces</p>
+
+    <h1 id="Productos">Productos</h1>
+
+    <div class="gallery">
+        <a href="tradicionales.html"><img src="imagenes/carne.png" id ="carne" width="600" height="400"></a>  
+        <div class="desc">TRADICIONALES</div>
+    </div>
+
+    <div class="gallery">
+        <a href="veganos.html"><img src="imagenes/queso.png" id ="queso" width="600" height="300"></a>
+        <div class="desc">VEGANOS</div>
+      </div>    
+      
+      <div class="gallery">
+        <a href="dulces.html"><img src="imagenes/sweet.jpg" id ="sweet" width="600" height="400"></a>
+        <div class="desc">DULCES</div>
+      </div>  
+     
+      <h1 id="contact">Contacto</h1>
+
+      <p>Direccion: xxxxxx</p>
+      <p>E-mail: xxxxxx</p>
+
+  
+<!--
+    <form action="/producto1" method="get">
+          <input type="submit" value="Carne"/>
+    </form>
+    <form action="/producto2" method="get">
+        <input type="submit" value="Pollo"/>
+    </form>
+    <form action="/producto3" method="get">
+        <input type="submit" value="Potato"/>
+    </form>
+    <form action="/producto4" method="get">
+        <input type="submit" value="Champiñones"/>
+    </form>
+    <form action="/producto5" method="get">
+        <input type="submit" value="Fresa"/>
+    </form>
+    <form action="/producto6" method="get">
+        <input type="submit" value="Arandanos"/>
+    </form>
+    -->
+    
+    
+</body>
+</html>

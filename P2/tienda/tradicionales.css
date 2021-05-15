@@ -1,0 +1,79 @@
+
+body {
+    background-color: white;
+    
+  }
+  h1{
+    color: black;
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size:50px;
+    margin-top: 60px;
+  }
+p{
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+
+}
+  #imagen1{
+    display:block;
+    margin:auto;
+    width: 300px; 
+    height: 220px;
+  }
+ 
+ .button{
+    background-color: white;
+    padding:  1px;
+    border: none;
+    margin-left: 50px;
+   
+
+ }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(211, 198, 162);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(206, 212, 172);
+  }
+  
+  div.gallery {
+    margin: 20px;
+    border: none;
+    display:inline-block;
+    width: 180px;
+    margin-left: 270px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
+  

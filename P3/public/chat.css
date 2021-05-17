@@ -1,0 +1,26 @@
+#contenedor{
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  body{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat; background-position: center center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+  h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    }
+
+ h3{
+        font-family: 'Staatliches', cursive;
+        font-size: 45px;
+        }
+
+#display{
+        font-size: 20px;
+    }

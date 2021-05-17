@@ -25,3 +25,11 @@ button.onclick = () => {
   socket.send("Holiii-" + contador);
   contador += 1;
 }
+
+let tic = 1;
+
+//-- Enviar un mensaje periódico ("TIC")
+setInterval(() => {
+    socket.emit('tic', "TIC-" + tic);
+    tic += 1;
+}, 1000);

@@ -1,0 +1,55 @@
+h1 {
+    width: 93%;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+
+  h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    }
+
+
+  body{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat; background-position: center center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.blue {
+    color: rgb(175, 107, 214);
+    font-family: 'Padauk', sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+  #display {
+    border: 4px solid pink;
+      padding: 10px;
+  }
+
+  #info{
+
+    border: 4px solid pink;
+  }
+  #usu{
+
+    border: 4px solid pink;
+  }
+
+  #right{
+float: right;
+
+  }
+
+  #left{
+    float: left;
+    
+      }
